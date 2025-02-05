@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import myimage from '../../assets/CClogo.png';
+import myimage from '../../assets/CClogo1.png';
 import bgimage from '../../assets/bgimage2.jpg';
 
 function Navbar() {
@@ -11,7 +11,7 @@ function Navbar() {
           <img
             src={myimage}
             alt="CareConnect Logo"
-            className="h-[50px]"
+            className="h-[70px] w-[180px]"
           />
         </div>
         <ul className="flex space-x-6 text-white font-semibold">
