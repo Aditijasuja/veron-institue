@@ -1,12 +1,15 @@
 import React from "react";
 import "./Navbar.css";
+import myimage from '../../assets/CClogo.png';
+import bgimage from '../../assets/bgimage2.jpg';
+
 function Navbar() {
   return (
     <div>
       <nav className="absolute top-0 left-0 w-full p-5 flex justify-between items-center z-10">
         <div>
           <img
-            src="/assets/CClogo.png"
+            src={myimage}
             alt="CareConnect Logo"
             className="h-[50px]"
           />
@@ -48,7 +51,7 @@ function Navbar() {
       </nav>
       <div className="h-[100%] w-[100%] ">
         <img
-          src="/assets/bgimage2.jpg"
+          src={bgimage}
           alt="bgimage"
           className="h-screen w-screen object-cover"
         />
